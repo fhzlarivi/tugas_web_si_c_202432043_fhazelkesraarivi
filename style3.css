@@ -1,0 +1,120 @@
+/* Reset dasar untuk mengatur perhitungan lebar elemen */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body { 
+    background-color: #f0f2f5; 
+    font-family: 'Verdana', sans-serif; 
+}
+
+/* Fhazel Kesra Arivi 202432043 */
+
+header {
+    background-color: #476EAE; 
+    padding: 30px 0 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #d1d8e0; /* Warna link default (agak redup) */
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a.active { 
+    color: white; 
+    font-weight: bold; 
+    text-decoration: underline; 
+}
+
+/* --- Styling Layout Utama --- */
+main { 
+    display: flex;
+    justify-content: center; /* Membuat form berada di tengah layar */
+    padding: 40px 20px;
+}
+
+/* --- Styling Card Form --- */
+.reg-form { 
+    background: white; 
+    padding: 30px; 
+    border-radius: 10px; 
+    width: 100%; 
+    max-width: 600px; 
+    border-top: 5px solid #476EAE; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Sedikit bayangan agar elegan */
+}
+
+fieldset { 
+    border: none; 
+}
+
+legend { 
+    font-size: 1.5em; 
+    color: #476EAE; 
+    margin-bottom: 20px; 
+}
+
+.form-group { 
+    margin-bottom: 15px; 
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Menyamakan gaya input text, select, dan textarea */
+input[type="text"], 
+select, 
+textarea { 
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-family: inherit; /* Menyesuaikan font dengan body */
+}
+
+input[type="checkbox"] {
+    margin-top: 10px;
+    margin-right: 3px;
+    margin-left: 10px;
+}
+
+input[type="checkbox"]:first-of-type {
+    margin-left: 0;
+}
+
+/* --- Styling Tombol --- */
+button { 
+    background: #476EAE; 
+    color: white; 
+    border: none; 
+    padding: 12px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    width: 100%; 
+    font-size: 16px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #365587; /* Warna berubah sedikit gelap saat di-hover */
+}

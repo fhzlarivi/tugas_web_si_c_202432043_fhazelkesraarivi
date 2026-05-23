@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #ffffff; /* Sesuai gambar, background lebih putih */
+    color: #333;
+}
+
+/* --- Header & Navigasi --- */
+header {
+    background-color: #649EAE; /* Mengubah ke warna biru teal */
+    padding: 30px 0 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Jarak antar tombol */
+    padding-bottom: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Menambahkan border transparan */
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Fhazel Kesra Arivi 202432043 */
+
+nav a.active {
+    background-color: #ffffff; 
+    color: #649EAE; /* Teks mengikuti warna tema */
+    font-weight: 600;
+    border: 1px solid #ffffff;
+}
+
+/* --- Konten & Tabel --- */
+main {
+    max-width: 1000px; /* Diperlebar sedikit agar tabel lega */
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+main h2 {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    background-color: #649EAE; /* Mengikuti warna tema header */
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid #7FABB8; /* Border header sedikit lebih terang dari backgroundnya */
+    text-align: center; /* Teks header rata tengah sesuai gambar */
+    vertical-align: middle;
+}
+
+td {
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+}
+
+/* Baris selang-seling dihilangkan karena di gambar tabelnya full putih */
+tbody tr {
+    background-color: #ffffff;
+}

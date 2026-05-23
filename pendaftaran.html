@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab ITPLN - Pendaftaran</title>
+    <link rel="stylesheet" href="style3.css" />
+    <!-- Fhazel Kesra Arivi_202432043 -->
+  </head>
+  <body>
+    <header>
+      <h1>Open Recruitment Asisten</h1>
+      <nav>
+        <a href="inventaris.html" class="nav-link text-white-50">Inventaris</a>
+        <a href="stok.html" class="nav-link text-white-50">Stok</a>
+        <a href="pendaftaran.html" class="nav-link text-white-50"
+          >Pendaftaran</a
+        >
+        <a href="index.html" class="nav-link text-white fw-bold">Portal Akun</a>
+      </nav>
+    </header>
+
+    <main>
+      <form class="reg-form">
+        <fieldset>
+          <legend>Data Identitas Calon Asisten</legend>
+
+          <div class="form-group">
+            <label>Nama Lengkap:</label>
+            <input type="text" placeholder="Sesuai KTM" />
+          </div>
+
+          <div class="form-group">
+            <label>Minat Laboratorium:</label>
+            <select>
+              <option>Information Retrieval</option>
+              <option>Software Engineering</option>
+              <option>Intelligent Computing</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Bahasa Pemrograman:</label><br />
+            <input type="checkbox" id="python" />
+            <label for="python">Python</label>
+            <input type="checkbox" id="java" /> <label for="java">Java</label>
+            <input type="checkbox" id="php" /> <label for="php">PHP</label>
+          </div>
+
+          <div class="form-group">
+            <label>Visi & Misi:</label><br />
+            <textarea rows="5"></textarea>
+          </div>
+
+          <button type="submit">Kirim Aplikasi</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
